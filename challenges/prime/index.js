@@ -1,6 +1,6 @@
 var fs = require('fs');
 var text = fs.readFileSync('./input.txt', 'utf8');
-var file = fs.createWriteStream('output.txt');
+var file = fs.createWriteStream('output.txt'); //output file, to be compared with expected.txt
 var newarray = []
 
 function isPrime(value) {
